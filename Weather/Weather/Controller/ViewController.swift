@@ -38,7 +38,7 @@ class ViewController: UIViewController {
 
 //MARK: - UITextFieldDelegate
 
-extension WeatherViewController: UITextFieldDelegate {
+extension ViewController: UITextFieldDelegate {
     @IBAction func searchPressed(_ sender: UIButton) {
         searchTextField.endEditing(true)
     }
@@ -67,7 +67,7 @@ extension WeatherViewController: UITextFieldDelegate {
 
 // MARK: - WeatherManagerDelegate
 
-extension WeatherViewController: WeatherManagerDelegate {
+extension ViewController: WeatherManagerDelegate {
     func didUpdateWeather(weather: WeatherModel) {
         DispatchQueue.main.async {
             self.temperatureLabel.text = weather.stringTemperature
@@ -83,7 +83,7 @@ extension WeatherViewController: WeatherManagerDelegate {
 
 // MARK: - CLLocationManagerDelegate
 
-extension WeatherViewController: CLLocationManagerDelegate {
+extension ViewController: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.last {
             let lat = location.coordinate.latitude
