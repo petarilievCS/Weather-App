@@ -10,10 +10,10 @@
 		E62778C028A2823200CB56FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62778BF28A2823200CB56FE /* AppDelegate.swift */; };
 		E62778C228A2823200CB56FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62778C128A2823200CB56FE /* SceneDelegate.swift */; };
 		E62778C428A2823200CB56FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62778C328A2823200CB56FE /* ViewController.swift */; };
-		E62778C728A2823200CB56FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62778C528A2823200CB56FE /* Main.storyboard */; };
 		E62778CA28A2823200CB56FE /* Weather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E62778C828A2823200CB56FE /* Weather.xcdatamodeld */; };
 		E62778CC28A2823900CB56FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E62778CB28A2823900CB56FE /* Assets.xcassets */; };
 		E62778CF28A2823900CB56FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62778CD28A2823900CB56FE /* LaunchScreen.storyboard */; };
+		E62778DA28A2832700CB56FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62778D928A2832700CB56FE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +21,11 @@
 		E62778BF28A2823200CB56FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E62778C128A2823200CB56FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E62778C328A2823200CB56FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E62778C628A2823200CB56FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E62778C928A2823200CB56FE /* Weather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Weather.xcdatamodel; sourceTree = "<group>"; };
 		E62778CB28A2823900CB56FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E62778CE28A2823900CB56FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E62778D028A2823900CB56FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E62778D928A2832700CB56FE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 		E62778D628A2829B00CB56FE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E62778C528A2823200CB56FE /* Main.storyboard */,
+				E62778D928A2832700CB56FE /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -154,7 +154,7 @@
 			files = (
 				E62778CF28A2823900CB56FE /* LaunchScreen.storyboard in Resources */,
 				E62778CC28A2823900CB56FE /* Assets.xcassets in Resources */,
-				E62778C728A2823200CB56FE /* Main.storyboard in Resources */,
+				E62778DA28A2832700CB56FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +175,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E62778C528A2823200CB56FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E62778C628A2823200CB56FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E62778CD28A2823900CB56FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
